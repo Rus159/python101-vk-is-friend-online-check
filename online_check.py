@@ -7,7 +7,7 @@ load_dotenv()
 
 
 ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
-
+VK_USER_ID = os.getenv('VK_USER_ID')
 session = vk_api.VkApi(token=ACCESS_TOKEN)
 
 
